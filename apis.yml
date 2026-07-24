@@ -1,7 +1,28 @@
 aid: brainient
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/brainient.png
 name: Brainient
-description: Brainient is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Brainient was a London-based advertising technology company founded in 2009 by
+  Emi Gal that specialized in interactive video advertising and Dynamic Creative
+  Optimization (DCO). Its platform made online video ads more personalized and
+  interactive by matching creative to real-time context such as socio-demographics,
+  geolocation, device, time of day, and weather. Brainient was acquired by Teads in
+  September 2016 and folded into the Teads Studio division; the standalone Brainient
+  brand and its brainient.com domain are now defunct. This profile was surfaced as a
+  portfolio company of 500 Global and added to the API Evangelist network as a lead.
+  No public API surface, developer documentation, or machine-readable specification
+  was located for Brainient during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/brainient/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +30,21 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-acquired-by: teads
+x-acquired-date: '2016-09'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Advertising
+- AdTech
+- Video Advertising
+- Interactive Video
+- Dynamic Creative Optimization
+- Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,8 @@ maintainers:
 common:
 - type: Website
   url: https://brainient.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
